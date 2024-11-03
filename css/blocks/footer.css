@@ -1,0 +1,45 @@
+footer {
+    background-color: #6A1B9A; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.footer-container {
+    display: flex; /* Flexbox para organizar as seções */
+    justify-content: space-around; /* Espaçamento entre seções */
+    flex-wrap: wrap; /* Permite que as seções se movam em linhas */
+    margin-bottom: 10px; /* Espaço abaixo do container */
+}
+
+.footer-section {
+    flex: 1; /* Cada seção ocupa espaço igual */
+    padding: 0 15px; /* Espaçamento horizontal dentro de cada seção */
+}
+
+.footer-section h3 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.footer-section ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento */
+}
+
+.footer-section ul li {
+    margin: 5px 0; /* Espaçamento entre os itens da lista */
+}
+
+.footer-section a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+.footer-bottom {
+    border-top: 1px solid #555; /* Linha separadora acima do rodapé */
+    padding: 10px 0; /* Espaçamento interno do rodapé */
+}

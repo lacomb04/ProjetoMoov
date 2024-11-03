@@ -1,0 +1,41 @@
+.card{
+    background-color: #fff;
+    margin: 80px;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 2%;opacity: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease, transform 0.6s ease;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0); /* Move as cartas de volta à posição original */
+}
+
+.card .funcao {
+    background: white; /* ou a cor de fundo que você preferir */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra padrão */
+}
+
+
+/* Efeito de hover */
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-10px); /* Move o card para cima */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Duração da animação de hover */
+}
+
+@media (max-width: 1230px) {
+    .card{
+        width: 100%;
+        margin: 10px;
+
+  }
+
+}
+    
